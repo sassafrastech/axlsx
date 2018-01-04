@@ -3,7 +3,7 @@ require File.expand_path('../lib/axlsx/version', __FILE__)
 Gem::Specification.new do |s|
   s.name        = 'axlsx'
   s.version     = Axlsx::VERSION
-  s.author      = ["Randy Morgan", "Jurriaan Pruis"]
+  s.author      = ["Randy Morgan", "Jurriaan Pruis", "Sassafras Tech Collective"]
   s.email       = 'digital.ipseity@gmail.com'
   s.homepage    = 'https://github.com/randym/axlsx'
   s.platform    = Gem::Platform::RUBY
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files  = Dir.glob("{test/**/*}")
 
   s.add_runtime_dependency 'nokogiri', '>= 1.4.1'
-  s.add_runtime_dependency 'rubyzip', '~> 1.1.7'
+  s.add_runtime_dependency 'rubyzip', '~> 1.1'
   s.add_runtime_dependency "htmlentities", "~> 4.3.1"
 
   s.add_development_dependency 'yard'
